@@ -573,6 +573,10 @@ Ext.onReady(function() {
             displayImageLayout: {
                 label: 'Großes Bild',
                 description: 'Das Layout der Produkt-Box zeigt ein besonders großes Produkt-Bild.'
+            },
+            displayListLayout: {
+                label: 'Produktliste',
+                description: 'Das Layout der Produkt-Box zeigt ein kleines Produkt-Bild und nur ein Produkt pro Zeile.'
             }
         }
     });

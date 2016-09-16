@@ -12,6 +12,9 @@
     {elseif $productBoxLayout == 'emotion'}
         {include file="frontend/listing/product-box/box-emotion.tpl"}
 
+    {elseif $productBoxLayout == 'list'}
+        {include file="frontend/listing/product-box/box-list.tpl"}
+
     {else}
         {block name="frontend_listing_box_article_includes_additional"}
             {include file="frontend/listing/product-box/box-basic.tpl" productBoxLayout="basic"}
